@@ -19,7 +19,7 @@
         "sensio/framework-extra-bundle": "~3.0",
         "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
-        "aws/aws-sdk-php": "2.*"
+        "mcfedr/awspushbundle": "~1.0.0"
     },
     "scripts": {
         "post-install-cmd": [

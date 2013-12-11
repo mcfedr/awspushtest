@@ -67,3 +67,11 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+ekreative_aws_push:
+    platforms:
+      ios: bla
+    aws:
+      key: ad
+      secret: asd
+      region: eu-west-1

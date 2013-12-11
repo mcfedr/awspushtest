@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "010cc55a3a4089b5d2d57d745631237e",
+    "hash": "f20133fe67bac7fc4e574d984d148fa2",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -954,6 +954,54 @@
                 "minification"
             ],
             "time": "2013-07-19 00:03:27"
+        },
+        {
+            "name": "mcfedr/awspushbundle",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mcfedr/awspushbundle.git",
+                "reference": "92798265a05015f92270714f74c393c3c54a8e50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mcfedr/awspushbundle/zipball/92798265a05015f92270714f74c393c3c54a8e50",
+                "reference": "92798265a05015f92270714f74c393c3c54a8e50",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "~2.4",
+                "php": ">=5.4.0",
+                "symfony/symfony": "~2.0"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "ekreative\\AWSPushBundle": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fred Cox",
+                    "email": "mcfedr@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A set of services to simplify using AWS to send push notifications",
+            "keywords": [
+                "apns",
+                "bundle",
+                "c2dm",
+                "gcm",
+                "ios",
+                "notification",
+                "push"
+            ],
+            "time": "2013-12-11 11:28:08"
         },
         {
             "name": "monolog/monolog",

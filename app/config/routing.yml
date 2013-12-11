@@ -1,5 +1,5 @@
 ekreative_push:
-    resource: "@ekreativePushBundle/Controller/"
+    resource: "@ekreativeAWSPushBundle/Controller/"
     type:     annotation
     prefix:   /
 
